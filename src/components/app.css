@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+  margin-bottom: 5px;
+margin-top: 8px;
+flex-direction: column;
+align-items: center;
+height: 100vh;
+}
+
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+    background-color: rgb(230, 28, 186);
+    width: 200px;
+    height: 90px;
+    color: rgb(14, 12, 12);
+    border-radius: 6px;
+    padding: 9px 10px;
+}
+
+.fullcomment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(68, 226, 53);
+    width: 500px;
+    height: 200px;
+    color: black;
+    border-radius: 6px;
+  
+}
+
+.newcomment{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(240, 236, 17);
+    width: 500px;
+    height: 200px;
+    color: black;
+    border-radius: 6px;
+}
